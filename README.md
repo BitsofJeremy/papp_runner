@@ -4,9 +4,9 @@ Simple 2D runner game with PAPP NFTs
 
 ![screenshot_01](screenshot_01.png)
 
-![screenshot_02]('screenshot_02.png')
+![screenshot_02](screenshot_02.png)
 
-[screen_recording_01]('screen_recording_01.mov')
+[screen_recording_01](screen_recording_01.mov)
 
 # Play Online
 
