@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://cppqy3icwfi6"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_ajcwq"]
+[ext_resource type="Texture2D" uid="uid://ceuhkndao8hy5" path="res://assets/images/whole_128x128.png" id="2_8a7ik"]
+[ext_resource type="AudioStream" uid="uid://cap22yh0pitxt" path="res://assets/sounds/8bit_jump.wav" id="3_6d8i8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7qna7"]
+radius = 32.0
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_ajcwq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_8a7ik")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7qna7")
+
+[node name="JumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_6d8i8")
+volume_db = -15.0

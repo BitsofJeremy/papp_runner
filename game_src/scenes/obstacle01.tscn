@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://47f0omhkyu8f"]
+
+[ext_resource type="Texture2D" uid="uid://xc62dced5c4a" path="res://assets/images/object_iceberg.png" id="1_ugw0u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_24qay"]
+size = Vector2(50, 50)
+
+[node name="Obstacle01" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ugw0u")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 7)
+shape = SubResource("RectangleShape2D_24qay")

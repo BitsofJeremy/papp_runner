@@ -1,0 +1,90 @@
+[gd_scene load_steps=5 format=3 uid="uid://c38v4rnecawhb"]
+
+[ext_resource type="FontFile" uid="uid://1mqdeadxk2ea" path="res://assets/fonts/bitbybit_ [Font].ttf" id="1_6bs5r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h73xb"]
+bg_color = Color(0.172549, 0.564706, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_quk47"]
+bg_color = Color(0, 0.682353, 0.713726, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uxhs0"]
+bg_color = Color(0.6, 0.52549, 0.937255, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+
+[node name="GameOver" type="CanvasLayer"]
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -92.0
+offset_top = -20.0
+offset_right = 92.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_6bs5r")
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_h73xb")
+theme_override_styles/hover = SubResource("StyleBoxFlat_quk47")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_uxhs0")
+text = "RESTART"
+
+[node name="BitsofJeremy" type="Label" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -35.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.654902, 0.733333, 0.92549, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 5
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("1_6bs5r")
+theme_override_font_sizes/font_size = 24
+text = "@BITSOFJEREMY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="MadeBy" type="Label" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -77.0
+offset_bottom = -49.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 5
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("1_6bs5r")
+theme_override_font_sizes/font_size = 20
+text = "Made By:"
+horizontal_alignment = 1
+vertical_alignment = 1

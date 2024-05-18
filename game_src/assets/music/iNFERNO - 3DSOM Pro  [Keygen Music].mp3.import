@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b87m5qqpg5gku"
+path="res://.godot/imported/iNFERNO - 3DSOM Pro  [Keygen Music].mp3-5eae534a81fa257884eec7cfb3b78cef.mp3str"
+
+[deps]
+
+source_file="res://assets/music/iNFERNO - 3DSOM Pro  [Keygen Music].mp3"
+dest_files=["res://.godot/imported/iNFERNO - 3DSOM Pro  [Keygen Music].mp3-5eae534a81fa257884eec7cfb3b78cef.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

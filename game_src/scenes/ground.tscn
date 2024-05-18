@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxdnpb80ihr7"]
+
+[ext_resource type="Texture2D" uid="uid://dbl2rs3xwxdvr" path="res://assets/images/far_city_background/0.png" id="1_qa0hi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ytbwk"]
+size = Vector2(1200, 48)
+
+[node name="Ground" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_qa0hi")
+centered = false
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(600, 2.08165e-12)
+texture = ExtResource("1_qa0hi")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(600, 376)
+shape = SubResource("RectangleShape2D_ytbwk")

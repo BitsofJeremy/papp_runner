@@ -1,0 +1,30 @@
+[gd_scene load_steps=8 format=3 uid="uid://dfepm7j8q0u6v"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_cmke7"]
+[ext_resource type="PackedScene" uid="uid://qtr24natgn1k" path="res://scenes/background.tscn" id="1_y5vgt"]
+[ext_resource type="PackedScene" uid="uid://bxdnpb80ihr7" path="res://scenes/ground.tscn" id="2_68osu"]
+[ext_resource type="PackedScene" uid="uid://cppqy3icwfi6" path="res://scenes/player.tscn" id="3_wgsct"]
+[ext_resource type="PackedScene" uid="uid://s2dyahbr1ek5" path="res://scenes/hud.tscn" id="5_8s1a8"]
+[ext_resource type="PackedScene" uid="uid://c38v4rnecawhb" path="res://scenes/game_over.tscn" id="6_rx4ix"]
+[ext_resource type="AudioStream" uid="uid://b87m5qqpg5gku" path="res://assets/music/iNFERNO - 3DSOM Pro  [Keygen Music].mp3" id="7_l2qm3"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_cmke7")
+
+[node name="MainMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_l2qm3")
+volume_db = -10.0
+
+[node name="Background" parent="." instance=ExtResource("1_y5vgt")]
+
+[node name="Ground" parent="." instance=ExtResource("2_68osu")]
+
+[node name="Player" parent="." instance=ExtResource("3_wgsct")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(300, 200)
+
+[node name="HUD" parent="." instance=ExtResource("5_8s1a8")]
+
+[node name="GameOver" parent="." instance=ExtResource("6_rx4ix")]
+process_mode = 2
