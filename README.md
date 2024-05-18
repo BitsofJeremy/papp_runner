@@ -2,7 +2,7 @@
 
 Simple 2D runner game with PAPP NFTs
 
-![screenshot_01]('screenshot_01.png')
+![screenshot_01](screenshot_01.png)
 
 ![screenshot_02]('screenshot_02.png')
 
@@ -34,3 +34,14 @@ https://bitsofjeremy.itch.io/papp-runner
 `far_city_background` - From [Lucky Loops Itch page](https://lucky-loops.itch.io/parallax-city-background)
 
 `bitbybit_ [Font].ttf` - From [Analog Studios](https://analogstudios.itch.io/bitbybitfont)
+
+
+Code and inspiration for the runner type game provided by:
+
+https://www.youtube.com/@CodingWithRuss
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nKBhz6oJYsc?si=DLF3SFdk6aQC7CQ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
