@@ -6,7 +6,10 @@ Simple 2D runner game with PAPP NFTs
 
 ![screenshot_02](screenshot_02.png)
 
-[screen_recording_01](screen_recording_01.mov)
+https://youtu.be/MUYXWCKm4gU
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/MUYXWCKm4gU/0.jpg)](http://www.youtube.com/watch?v=MUYXWCKm4gU "PAPP Runner Screen recording 01")
+
 
 # Play Online
 
